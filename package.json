@@ -1,0 +1,19 @@
+{
+  "name": "adaptathon",
+  "version": "1.0.0",
+  "description": "a mock-up of a website for making it easy to employers to recruit and fund handicaped workers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mathiasduc/adaptathon.git"
+  },
+  "author": "mathias ducancel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathiasduc/adaptathon/issues"
+  },
+  "homepage": "https://github.com/Mathiasduc/adaptathon#readme"
+}
