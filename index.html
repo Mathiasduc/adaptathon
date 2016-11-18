@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,35 +9,71 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="main" class="ui grid">
-		<div class="twelve wide column middle centered">
-			<div id="questioningBox" class="ui grid">
-				<div id="question" class="ten wide column middle centered">
-					<h3 >Votre employé est il declaré aupres de truc?</h3>
-				</div>
-				<div class="four column centered row">
-					<div class="column">
-						<button class="ui massive orange button">Oui</button>
-					</div>
-					<div class="column">
-						<button class="ui massive blue button">Non</button>
-					</div>
+
+	<!-- Following Menu -->
+	<div class="ui inverted segment">
+		<div class="ui inverted secondary pointing menu">
+			<div class="ui container">
+				<a class="active item" href="index.html">Acceuil</a>
+				<a class="item" href="#">Partenaires</a>
+				<div class="right menu">
 				</div>
 			</div>
-			<div class="one column row">
-				<div id="answer" class="column">
+		</div>
 
+
+		<div class="ui text container centered">
+			<h1 class="ui inverted header centered">
+				HANDYWORK
+			</h1>
+			<h2>Votre guide vers l'adaptation du poste</h2>
+		</div>
+	</div>
+	<!-- arborescence de questions-->
+	<div class="ui vertical stripe segment">
+		<div id="main" class="ui grid">
+			<div class="twelve wide column middle centered">
+				<div id="questioningBox" class="ui grid">
+					<div class="ten wide column center aligned middle centered">
+						<h3 id="question">Etes vous une entreprise public ou privée</h3>
+					</div>
+					<div class="four column centered row">
+						<div class="center aligned column">
+							<button class="ui massive orange button">Privée</button>
+						</div>
+						<div class="center aligned column">
+							<button class="ui massive blue button">Public</button>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="one column row">
-				<div id="answer2" class="column">
+				<div class="one column row">
+					<div id="answer" class="answersClass column">
 
+					</div>
+				</div>
+				<div class="one column row">
+					<div id="answer2" class="answersClass 	column">
+
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script src="node_modules/jquery/dist/jquery.js"></script>
-	<script src="node_modules/semantic-ui-css/semantic.js"></script>
-	<script src="app.js"></script>
+
+
+	
+
+	<!-- footer -->
+
+	<div class="ui inverted vertical footer segment">
+		<div class="ui container">
+		</div>
+	</div>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/semantic-ui-css/semantic.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
